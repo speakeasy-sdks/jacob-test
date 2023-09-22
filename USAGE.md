@@ -7,11 +7,11 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/jacob-test"
+	jacobtest "github.com/speakeasy-sdks/jacob-test"
 )
 
 func main() {
-    s := test.New()
+    s := jacobtest.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)

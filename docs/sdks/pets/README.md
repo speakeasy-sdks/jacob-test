@@ -18,11 +18,11 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/jacob-test"
+	jacobtest "github.com/speakeasy-sdks/jacob-test"
 )
 
 func main() {
-    s := test.New()
+    s := jacobtest.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
@@ -60,16 +60,16 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/jacob-test"
+	jacobtest "github.com/speakeasy-sdks/jacob-test"
 	"github.com/speakeasy-sdks/jacob-test/pkg/models/operations"
 )
 
 func main() {
-    s := test.New()
+    s := jacobtest.New()
 
     ctx := context.Background()
     res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{
-        Limit: test.Int(548814),
+        Limit: jacobtest.Int(548814),
     })
     if err != nil {
         log.Fatal(err)
@@ -106,12 +106,12 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/jacob-test"
+	jacobtest "github.com/speakeasy-sdks/jacob-test"
 	"github.com/speakeasy-sdks/jacob-test/pkg/models/operations"
 )
 
 func main() {
-    s := test.New()
+    s := jacobtest.New()
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{
