@@ -37,3 +37,13 @@ Based on:
 - [go v1.2.1] .
 ### Releases
 - [Go v1.2.1] https://github.com/speakeasy-sdks/jacob-test/releases/tag/v1.2.1 - .
+
+## 2023-09-30 00:50:25
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.91.4 (2.139.2) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v1.3.0] .
+### Releases
+- [Go v1.3.0] https://github.com/speakeasy-sdks/jacob-test/releases/tag/v1.3.0 - .
