@@ -13,25 +13,26 @@ go get github.com/speakeasy-sdks/jacob-test
 ```go
 package main
 
-import(
+import (
 	"context"
-	"log"
 	jacobtest "github.com/speakeasy-sdks/jacob-test"
+	"log"
 )
 
 func main() {
-    s := jacobtest.New()
+	s := jacobtest.New()
 
-    ctx := context.Background()
-    res, err := s.Pets.CreatePets(ctx)
-    if err != nil {
-        log.Fatal(err)
-    }
+	ctx := context.Background()
+	res, err := s.Pets.CreatePets(ctx)
+	if err != nil {
+		log.Fatal(err)
+	}
 
-    if res.StatusCode == http.StatusOK {
-        // handle response
-    }
+	if res.StatusCode == http.StatusOK {
+		// handle response
+	}
 }
+
 ```
 <!-- End SDK Example Usage -->
 
