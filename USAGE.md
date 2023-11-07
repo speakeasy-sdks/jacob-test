@@ -6,7 +6,7 @@ package main
 
 import (
 	"context"
-	jacobtest "github.com/speakeasy-sdks/jacob-test"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
 	"log"
 )
 

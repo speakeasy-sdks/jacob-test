@@ -4,7 +4,7 @@ package jacobtest
 
 import (
 	"fmt"
-	"github.com/speakeasy-sdks/jacob-test/pkg/utils"
+	"github.com/speakeasy-sdks/jacob-test/v2/pkg/utils"
 	"net/http"
 	"time"
 )
@@ -60,7 +60,7 @@ func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
 }
 
 type Test struct {
-	Pets *pets
+	Pets *Pets
 
 	sdkConfiguration sdkConfiguration
 }
@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *Test {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "1.4.0",
-			GenVersion:        "2.169.0",
-			UserAgent:         "speakeasy-sdk/go 1.4.0 2.169.0 1.0.0 github.com/speakeasy-sdks/jacob-test",
+			SDKVersion:        "2.0.0",
+			GenVersion:        "2.181.1",
+			UserAgent:         "speakeasy-sdk/go 2.0.0 2.181.1 1.0.0 github.com/speakeasy-sdks/jacob-test",
 		},
 	}
 	for _, opt := range opts {

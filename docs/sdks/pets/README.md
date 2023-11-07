@@ -1,5 +1,5 @@
 # Pets
-(*Pets*)
+(*.Pets*)
 
 ### Available Operations
 
@@ -19,7 +19,7 @@ package main
 import(
 	"context"
 	"log"
-	jacobtest "github.com/speakeasy-sdks/jacob-test"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
 )
 
 func main() {
@@ -61,8 +61,8 @@ package main
 import(
 	"context"
 	"log"
-	jacobtest "github.com/speakeasy-sdks/jacob-test"
-	"github.com/speakeasy-sdks/jacob-test/pkg/models/operations"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
+	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/operations"
 )
 
 func main() {
@@ -105,8 +105,8 @@ package main
 import(
 	"context"
 	"log"
-	jacobtest "github.com/speakeasy-sdks/jacob-test"
-	"github.com/speakeasy-sdks/jacob-test/pkg/models/operations"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
+	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/operations"
 )
 
 func main() {

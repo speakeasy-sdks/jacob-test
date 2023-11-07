@@ -1,4 +1,4 @@
-module github.com/speakeasy-sdks/jacob-test
+module github.com/speakeasy-sdks/jacob-test/v2
 
 go 1.14
 
