@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 7529ec58-3aab-468d-bfce-d03e5d311537
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 2.1.1
-  configChecksum: 2eb19f0e31d9f1cace23e55ec981861a
+  generationVersion: 2.230.3
+  releaseVersion: 2.1.2
+  configChecksum: 130eb9fe666abcf9d8fe30d46bff2620
   repoURL: https://github.com/speakeasy-sdks/jacob-test.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/jacob-test
