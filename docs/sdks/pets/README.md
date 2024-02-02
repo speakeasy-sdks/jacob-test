@@ -17,9 +17,9 @@ Create a pet
 package main
 
 import(
-	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v3"
 	"context"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/shared"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )
@@ -67,9 +67,9 @@ List all pets
 package main
 
 import(
-	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v3"
 	"context"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/operations"
 	"log"
 )
 
@@ -113,9 +113,9 @@ Info for a specific pet
 package main
 
 import(
-	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v3"
 	"context"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/operations"
 	"log"
 )
 

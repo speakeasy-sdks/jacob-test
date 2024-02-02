@@ -18,8 +18,8 @@ package main
 
 import (
 	"context"
-	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/shared"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v3"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )
@@ -85,9 +85,9 @@ package main
 import (
 	"context"
 	"errors"
-	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/sdkerrors"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/shared"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v3"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/sdkerrors"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/shared"
 	"log"
 )
 
@@ -132,8 +132,8 @@ package main
 
 import (
 	"context"
-	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/shared"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v3"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )
@@ -168,8 +168,8 @@ package main
 
 import (
 	"context"
-	jacobtest "github.com/speakeasy-sdks/jacob-test/v2"
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/shared"
+	jacobtest "github.com/speakeasy-sdks/jacob-test/v3"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )

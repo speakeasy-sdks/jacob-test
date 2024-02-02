@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"github.com/speakeasy-sdks/jacob-test/v2/pkg/models/shared"
+	"github.com/speakeasy-sdks/jacob-test/v3/pkg/models/shared"
 	"net/http"
 )
 
