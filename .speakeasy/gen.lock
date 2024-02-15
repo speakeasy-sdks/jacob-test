@@ -4,16 +4,16 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.250.2
-  releaseVersion: 3.0.1
-  configChecksum: 6a2b98a3a2de1b237c840178b7bdc28e
+  generationVersion: 2.258.2
+  releaseVersion: 3.1.0
+  configChecksum: bf773cacbe677290a5241ef0c0988b23
   repoURL: https://github.com/speakeasy-sdks/jacob-test.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/jacob-test
   published: true
 features:
   go:
-    core: 3.3.2
+    core: 3.4.0
     globalServerURLs: 2.82.1
 generatedFiles:
   - pets.go
@@ -52,3 +52,4 @@ generatedFiles:
   - docs/sdks/pets/README.md
   - USAGE.md
   - .gitattributes
+  - internal/hooks/hooks.go
